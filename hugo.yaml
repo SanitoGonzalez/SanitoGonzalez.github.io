@@ -1,0 +1,91 @@
+baseURL: https://sanitogonzalez.github.io/
+languageCode: en-us
+title: "Laboratory San"
+theme: ["PaperMod"]
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: "San's LAB"
+  description: "A blog for developments and experiments of multiplayer game server."
+  keywords: ["Blog", "Portfolio", "Game Server", "게임 서버", "포트폴리오"]
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  assets:
+    disableHLJS: true
+    disableFingerprinting: true
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    android_chrome_192: "/android-chrome-192x192.png"
+    android_chrome_512: "/android-chrome-512x512.png"
+    # safari_pinned_tab: /safari-pinned-tab.svg"
+
+  label:
+    # text: ""
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # analytics:
+    # google:
+      # SiteVerificationTag: "XYZabc"
+
+  homeInfoParams:
+    Title: "Welcome to the lab"
+    Content: "This is a place for experiments and developments of multiplayer games"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/SanitoGonzalez"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/gangsan-jeong-22a179295/"
+
+  # author: "Sanito Gonzalez"
+  DateFormat: "January 2, 2006"
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: true
+  showtoc: false
+  tocopen: false
+
+  menu:
+    main:
+      - identifier: categories
+        name: categories
+        url: /categories/
+        weight: 10
+      - identifier: tags
+        name: tags
+        url: /tags/
+        weight: 20
+
+  pygmentsUseClasses: true
+  markup:
+    highlight:
+      noClasses: true
+      # anchorLineNos: true
+      codeFences: true
+      # guessSyntax: true
+      # lineNos: true
+      # tabWidth: 4
+      style: onedark
