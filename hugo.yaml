@@ -93,3 +93,9 @@ params:
       # lineNos: true
       # tabWidth: 4
       style: onedark
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
