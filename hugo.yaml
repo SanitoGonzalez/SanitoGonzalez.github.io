@@ -23,8 +23,6 @@ params:
   keywords: ["Blog", "Portfolio", "Game Server", "게임 서버", "포트폴리오"]
   defaultTheme: auto
   disableThemeToggle: false
-  seo:
-    google_site_verification: "yuDy-RGXnCD_GVSXDbTRMJKzb19yaoDHpZdL0Od8bzg"
 
   assets:
     disableHLJS: true
@@ -42,9 +40,9 @@ params:
     icon: /apple-touch-icon.png
     iconHeight: 35
 
-  analytics:
-     google:
-       SiteVerificationTag: "yuDy-RGXnCD_GVSXDbTRMJKzb19yaoDHpZdL0Od8bzg"
+  # analytics:
+     # google:
+       # SiteVerificationTag: "blahblah"
 
   homeInfoParams:
     Title: "Welcome to the lab"
